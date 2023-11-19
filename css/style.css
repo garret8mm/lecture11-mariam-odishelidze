@@ -54,6 +54,7 @@ max-height: 298px;
 height: 100%;
 display: flex;
 justify-content: space-between;
+margin-top: 57px;
 }
 
 .dd1{
@@ -92,8 +93,6 @@ background: #F8F8F8;
 display: flex;
 flex-wrap: wrap;
 }
-
-
 
 
 
@@ -152,8 +151,133 @@ background: #5968F4;
     transition: all none linear 250ms ;
 }
 
-.fa-solid{
+
+.container3{
+    max-width: 1146px;
+    width: 100%;
+    max-height: 226px;
+    height: 100%;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 51px;
+
+}
+
+.ema{
     width: 41px;
 height: 29px;
-flex-shrink: 0;
+flex-shrink: 0;}
+
+
+/* position: absolute; */
+
+
+/* .background image{
+    background-image:url(images/0.svg);
+    background-color:#5968F4; 
+    background-repeat: no-repeat;
+    width: 68px;
+    height: 68px;
+    position: relative;
+
+} */
+
+.mel{
+    color: #4E4D54;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    margin-top: 16px;
+}
+.mel:hover{
+    color: lightslategray;
+    transition: all none linear 25ms;
+}
+
+.en{
+    color: #99999A;
+font-family: Helvetica;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 8px;
+}
+
+.en:hover{
+    color: rgb(194, 202, 209);
+    transition: all none linear 25ms;
+} 
+
+
+.nak{
+    max-width: 226px;
+    width: 100%;
+    max-height: 226px;
+    height: 100%;
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+align-items: center;
+margin-top: 8px;
+}
+
+.sss{
+    color: #5863E3;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.sss:hover{
+    color: #9098e8;
+    transition: all none linear 250ms;
+}
+
+.sms{
+    color: #000;
+    font-family: Helvetica;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+    margin-top: 7px;
+}
+
+.container4{
+max-height: 139px;
+height: 100%;
+max-width: 548px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-top: 74px;
+}
+
+.sl{
+  max-width: 373px;
+  width: 100%;
+max-height: 373px;
+height: 100%;
+margin-top: 53px;
+}
+
+
+.container5{
+max-width: 1318px;
+width: 100%;
+max-height: 373px;
+height: 100%;
+
+}
+ .con5{
+   display: flex;
+justify-content: space-between;
+flex-wrap: nowrap;
 }
