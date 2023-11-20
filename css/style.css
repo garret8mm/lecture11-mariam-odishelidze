@@ -239,6 +239,10 @@ margin-top: 8px;
     transition: all none linear 250ms;
 }
 
+.sms:hover{
+    color: gray;
+    transition: all none linear 250ms;
+}
 .sms{
     color: #000;
     font-family: Helvetica;
@@ -248,6 +252,8 @@ margin-top: 8px;
     line-height: normal; 
     margin-top: 7px;
 }
+
+
 
 .container4{
 max-height: 139px;
@@ -266,18 +272,28 @@ margin-top: 74px;
 max-height: 373px;
 height: 100%;
 margin-top: 53px;
+margin-bottom: 39px;
 }
 
 
 .container5{
-max-width: 1318px;
+    margin: 0 auto;
+max-width: 1318px ;
 width: 100%;
-max-height: 373px;
+max-height: 373px ;
 height: 100%;
-
-}
- .con5{
-   display: flex;
-justify-content: space-between;
+display: flex;
 flex-wrap: nowrap;
+justify-content: space-between;
+flex-direction: row;
+}
+
+
+.conn6{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+ max-height: 372px;
+ height: 100%;
+;
 }
